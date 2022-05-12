@@ -126,7 +126,7 @@ Developed by: Sithi hajara I
 RegisterNumber:212221230102
 ```
 ## SR FLIPFLOP:
-
+```
 module ex05(S,R,Clk,Q,Qbar);
 input S,R,Clk;
 output Q,Qbar;
@@ -136,9 +136,9 @@ nand(Y,R,Clk);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
-
+```
 ## JK FLIPFLOP:
-
+```
 module ex05(J,K,Clk,Q,Qbar);
 input J,K,Clk;
 output Q,Qbar;
@@ -148,9 +148,9 @@ nand(Y,K,Clk,Q);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
-
+```
 ## D(DELAY) FLIPFLOP:
-
+```
 module ex05(D,Clk,Q,Qbar);
 input D,Clk;
 output Q,Qbar;
@@ -161,9 +161,9 @@ nand(Y,Dbar,Clk);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
-
+```
 ## T(TOGGLE) FLIPFLOP:
-
+```
 module ex05(T,Clk,Q,Qbar);
 input T,Clk;
 output Q,Qbar;
@@ -173,6 +173,7 @@ nand(Y,T,Clk,Q);
 nand(Q,X,Qbar);
 nand(Qbar,Y,Q);
 endmodule
+```
 ## OUTPUT
 ## SR FLIPFLOP
 ## RTL LOGIC FOR FLIPFLOPS
